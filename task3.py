@@ -7,3 +7,15 @@ Read the contents of task03.txt into your program and determine the points value
 
 For sample data task03.txt, the largest sum should be 68787
 """
+
+def find():
+    filename = 'task03.txt'
+    file = open(filename,'r')
+    datalist = file.read().split('\n')
+    for i in datalist:
+        
+        listsplit = i.split(' ')
+        listsplit.sort()
+        i = int(i)
+        
+find()
