@@ -16,11 +16,10 @@ def find():
         listsplit = i.split('\n')
         listsplit.sort()
         print(listsplit)
-        try:
-            if ((float(listsplit[0]))**2) + ((float(listsplit[1]))**2) == ((float(listsplit[2]))**2):
-                print("yeah")
-        except:
-            pass
+        
+        if ((float(listsplit[0]))**2) + ((float(listsplit[1]))**2) == ((float(listsplit[2]))**2):
+            print("yeah")
+        
             
 
 
